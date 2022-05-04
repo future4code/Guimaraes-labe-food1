@@ -1,5 +1,5 @@
-REACT ICONS
-npm install react-icons --save
+### REACT ICONS
+- npm install react-icons --save
 
 --------------------------------------------------
 
