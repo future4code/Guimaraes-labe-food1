@@ -16,7 +16,6 @@ import ErrorPage from "../pages/ErrorPage";
 const Router = () => {
 
     return (
-        
         <BrowserRouter>
             <Routes>
                 <Route index path ="/" element={<Home/>}/>
