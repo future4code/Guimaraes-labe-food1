@@ -18,8 +18,8 @@ const Router = () => {
     return (
         <BrowserRouter>
             <Routes>
-                <Route index path ="/" element={<Home/>}/>
-                <Route exact path ="/rappi4/login" element={<Login/>}/>
+                <Route index path ="/" element={<Login/>}/>
+                <Route exact path ="/rappi4/home" element={<Home/>}/>
                 <Route exact path ="/rappi4/sign-up" element={<SignUp/>}/>
                 <Route exact path ="/rappi4/perfil" element={<Perfil/>}/>
                 <Route exact path ="/rappi4/busca" element={<Busca/>}/>
