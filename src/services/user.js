@@ -1,6 +1,6 @@
 import axios from "axios";
 import {BASE_URL} from "../constants/urls"
-import { gotToHome } from "../routes/coordinator";
+import { goToHome } from "../routes/coordinator";
 
 export const login = (body, clear, history) => {
 
@@ -12,7 +12,7 @@ export const login = (body, clear, history) => {
 
         clear()
 
-        gotToHome(history)
+        goToHome(history)
     } )
 
     .catch((err) => alert("Erro ao efetuar Login"))
