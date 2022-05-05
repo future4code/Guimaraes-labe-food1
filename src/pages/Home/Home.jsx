@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import { goToLoginPage } from "../../routes/coordinator";
+import { goToLogin } from "../../routes/coordinator";
 
 const Home = () => {
     const navigate = useNavigate();
@@ -8,7 +8,7 @@ const Home = () => {
         <div>
             <div>
 
-               <div onClick={() => goToLoginPage(navigate)}>
+               <div onClick={() => goToLogin(navigate)}>
                 <h1>Rappi4A</h1>
                </div>
 
