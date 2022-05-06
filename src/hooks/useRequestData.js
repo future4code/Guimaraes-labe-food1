@@ -5,8 +5,14 @@ export const useRequestData = (url) =>{
     const [ data , setData ] = useState([])
 
     useEffect(()=>{
+        const token = undefined
+        const header = {
+            'auth' : token,
+            'Content-Type' : 'application/json'
+        }
+
         axios
-        .get(url)
+        .get(url, header)
         .then((res)=>{
             setData(res.data)
         })
