@@ -10,6 +10,10 @@ export const goToPerfil = (history) => {
     history.pushState("/rappi4/perfil")
 }
 
+export const goToHome = (history) => {
+    history.pushState("/rappi4/home")
+}
+
 export const goToBusca = (history) => {
     history.pushState("/rappi4/busca")
 }
