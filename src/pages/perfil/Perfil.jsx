@@ -12,9 +12,6 @@ const Perfil = () => {
 
     const orders = orderHistory[0].orders
 
-    console.log(profileData)
-    console.log(orders)
-
     const onClickEditName = () => {
         alert('Editando nome!')
     }
