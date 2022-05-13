@@ -3,7 +3,6 @@ import styled from 'styled-components'
 export const ContainerProfilePage = styled.div`
     width: 360px;
     height: 640px;
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
 `
