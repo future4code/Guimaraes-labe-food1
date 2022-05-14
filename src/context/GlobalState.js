@@ -1,4 +1,4 @@
-import { UserInfosContext } from "./UserInfosContext";
+import  UserInfosContext from "./UserInfosContext";
 import React, { useState } from "react";
 import useRequestData from "../hooks/useRequestData";
 import {BASE_URL} from "../constants/Urls"
