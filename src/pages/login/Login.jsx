@@ -1,5 +1,5 @@
 import React, {useContext, useState, useEffect} from 'react';
-import UserInfosContext from '../../context/UserInfosContext';
+import UserInfosContext from '../../context/UserInfosContext.js.js';
 import api from '../../services/api';
 import LogoRappi from '../../assets/logo-rappi4-salmon.png';
 import LogoRappiW from '../../assets/logo-rappi4-white.png';

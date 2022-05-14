@@ -1,17 +1,16 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Busca from "../pages/busca/Busca";
-import Carrinho from "../pages/carrinho/Carrinho";
+import { Carrinho } from "../pages/carrinho/Carrinho";
 import EditarDados from "../pages/editar/EditarDados";
 import CadastroEndereco from "../pages/endereco/CadastroEndereco";
-import Home from "../pages/Home/Home";
+import { Home } from "../pages/Home/Home";
 import Login from "../pages/login/Login";
 import Perfil from "../pages/perfil/Perfil";
 import Resultado from "../pages/resultado/Resultado";
+import { Busca } from "../pages/Busca/Busca"
 import SignUp from "../pages/signup/SignUp";
 import UntitledSection from "../pages/untitled/UntitledSection";
 import ErrorPage from "../pages/ErrorPage";
-
 
 const Router = () => {
 

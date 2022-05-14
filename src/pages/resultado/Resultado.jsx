@@ -3,10 +3,10 @@ import React from "react";
 
 const Resultado = () => {
     return (
-        <div>
-            <p>Resultado</p>
-        </div>
-    )
+    <div>
+        <p>resultado</p>
+    </div>
+    );
 }
 
 export default Resultado
