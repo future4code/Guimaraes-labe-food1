@@ -2,6 +2,10 @@ export const goToLogin = (history) => {
     history.pushState("/rappi4/login")
 }
 
+export const goToHome = (navigate) => {
+    navigate("/pagina-inicial")
+}
+
 export const goToSignUp = (history) => {
     history.pushState("/rappi4/sign-up")
 }
@@ -19,7 +23,7 @@ export const goToBusca = (history) => {
 }
 
 export const goToResultado = (history) => {
-    history.pushState("/rappi4/resultado")
+    history.pushState(`/rappi4/resultado`)
 }
 
 export const goToCarrinho = (history) => {
@@ -33,3 +37,8 @@ export const goToEditarDados = (history) => {
 export const gotToCadastroEndereco = (history) => {
     history.pushState("/rappi4/cadastro-endereco")
 }
+
+
+
+
+

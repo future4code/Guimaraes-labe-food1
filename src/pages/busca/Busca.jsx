@@ -1,12 +1,21 @@
-import React from "react";
+import React from "react"
+import Feed from "../../components/Feed/Feed";
+import Header from "../../components/Header/Header"
+import Navigation from "../../components/Navigation/Navigation";
+import useProtectedPage from "../../hooks/useProtectedPage";
 
+export const Busca = () => {
+    useProtectedPage();
 
-const Busca = () => {
     return (
-        <div>
-            <p>Busca</p>
-        </div>
+        <>
+            <Header title="Busca" />
+            <div>
+                <Feed
+                    isSearch="true"
+                />
+            </div>
+            <Navigation />
+        </>
     )
-}
-
-export default Busca
+};
